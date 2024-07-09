@@ -57,7 +57,7 @@ if (isset($_POST["submit"])) {
     <!-- <div class="container mt-5">
       -->
     <form action="" method="post" enctype="multipart/form-data"
-        style="margin: 2rem 2rem; width:900px; justify-content:center; padding-left:30rem;">
+        style="margin: 0 auto; width:700px; justify-content:center;">
         <div class="mb-3">
             <input class="form-control" type="hidden" id="id" name="id" value="<?= $edit["id"]; ?>">
         </div>
