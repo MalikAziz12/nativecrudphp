@@ -107,7 +107,7 @@ if (isset($_POST["cari"])) {
     }
     ?>
     <div class="button-add">
-        <button type="button" class="btn btn-primary" data-bs-toggle=" modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <i data-feather="user-plus"></i>
         </button>
         <button class="btn btn-info" onclick="printPage()"><i data-feather="printer"></i>
