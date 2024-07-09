@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif, Tahoma;
+    outline: none;
+    text-decoration: none;
+    border: none;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color:rgb(255, 255, 253);
+    color: white;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .button-add{
+    /* justify-content: right; */
+    text-align: right;
+    margin-right: 2rem;
+    
+  }
+  .button-add .btn{
+    margin-right: 0.1rem;
+    margin-bottom: 0.7rem;  
+  }
+  .button-add .btn a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 0.2rem;
+  }
+  .button-add .btn:hover{
+    transition: 0.2s ease-out;
+    background-color: rgb(213, 213, 210);
+    color: black;
+  }
+  .button-add .btn i:hover{
+    transition: 0.2s ease-out;
+    background-color: rgb(213, 213, 210);
+    color: black;
+  }
